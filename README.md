@@ -1,8 +1,8 @@
-# TedxAmsterdam Open Source Community
+# TEDxAmsterdam Open Source Community
 
-## TedxAmsterdam is going Open Source! 
+## TEDxAmsterdam is going Open Source! 
 
-TedxAmsterdam has shared a github to enable developers to build the front-end and back-end components for the new website. 
+TEDxAmsterdam has shared a github to enable developers to build the front-end and back-end components for the new website. 
 
 We welcome all developers that share the spirit of open source development and would like to contribute to make TedxAmsterdam the most awesome community built website ever.
 
