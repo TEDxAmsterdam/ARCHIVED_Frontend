@@ -1,0 +1,10 @@
+{
+  "name": "tedxamsterdam-fe",
+  "version": "0.0.1",
+  "main": "./src/client/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TEDxAmsterdam/frontend.git"
+  },
+  "private": true
+}
