@@ -1,5 +1,4 @@
 {
-  "stage": 0,
-  "loose": true,
-  "externalHelpers": true
+  "presets": ["es2015-loose", "react", "stage-2"],
+  "plugins": ["transform-decorators-legacy", "transform-runtime", "add-module-exports", "lodash"]
 }

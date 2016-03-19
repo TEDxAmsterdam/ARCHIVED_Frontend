@@ -9,15 +9,29 @@
         "node": true,
         "mocha": true
     },
-    "ecmaFeatures": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "ecmaFeatures": {
         "jsx": true,
-        "experimentalObjectRestSpread": true,
-        "modules": true
+        "experimentalObjectRestSpread": true
+      },
+      "sourceType": "module"
     },
     "rules": {
       "import/no-unresolved": 2
     },
     "globals": {
+        "__PRODUCTION__": true,
+        "__DEBUG__": true,
+        "__CLIENT__": true,
+        "__SERVER__": false,
+        "__SSR__": true,
+        "__STATIC__": true,
+        "__PERFORMANCE__": true,
+        "__BUNDLEPORT__": true,
+        "__API__": true,
+        "__PORT__": true,
+        "__HOST__": true,
         "React": true
     }
 }

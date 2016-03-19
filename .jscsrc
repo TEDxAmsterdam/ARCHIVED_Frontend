@@ -1,0 +1,29 @@
+{
+  "plugins": ["jscs-jsx-rules"],
+  "requireCurlyBraces": [
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch"
+  ],
+  "requireSpaceBetweenArguments": true,
+  "requireSpaceAfterComma": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "disallowTrailingWhitespace": true,
+  "disallowTrailingComma": true,
+  "disallowSpaceBeforeComma": true,
+  "requireSemicolons": true,
+  "requireSpacesInNamedFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireSpacesInForStatement": true,
+  "requireSpacesInConditionalExpression": true,
+  "requireSpaceBeforeKeywords": true,
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpaceAfterKeywords": ["else", "try", "catch"],
+  "disallowSpaceAfterKeywords": ["if", "for", "switch", "while", "do"],
+  "disallowSpacesInsideJsxExpressionContainers": true
+}
