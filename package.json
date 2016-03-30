@@ -6,6 +6,13 @@
     "type": "git",
     "url": "https://github.com/TEDxAmsterdam/frontend.git"
   },
+  "description": "TEDxAmsterdam a website build by the open source community",
+  "tags": [
+    "TEDxAmsterdam"
+  ],
+  "keywords": [
+    "TEDxAmsterdam"
+  ],
   "scripts": {
     "build": "npm run build:client && npm run build:server",
     "build:client": "rm -rf dist && NODE_ENV=production webpack -p --config ./webpack/webpack.build.client.js",
@@ -79,6 +86,5 @@
     "rimraf": "2.5.2",
     "webpack": "1.12.14",
     "webpack-dev-server": "1.14.1"
-  },
-  "private": true
+  }
 }
