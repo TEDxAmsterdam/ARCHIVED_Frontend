@@ -3,7 +3,7 @@ import _ from 'lodash';
 const environment = __API__;
 
 const endpoints = {
-  stub: {
+  development: {
     dummy: '/stub/dummy.json'
   },
   production: {
