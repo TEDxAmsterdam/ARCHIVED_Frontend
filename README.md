@@ -12,7 +12,7 @@ Ideas worth spreading!
 
 http://tedx.amsterdam/
 
-## docs
+## Docs
 
 * [Implementation details](./docs/implementation-details.md)
 * [Development](./docs/development.md)
