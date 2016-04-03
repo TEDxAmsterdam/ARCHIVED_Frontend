@@ -26,7 +26,7 @@ Clone the repository and run vagrant up then vagrant ssh
 cd into /var/www and run npm install then npm run build:server
 if you get errors during npm install then delete the node_modules and run npm install again
 if you also get errors during npm run build:server then delete the build folder and run  npm run build:server again
-then do npm start and visit localhost:9000
+then npm start and visit localhost:9000
 
 ```
 git clone https://github.com/TEDxAmsterdam/Frontend.git && cd Frontend && npm install
