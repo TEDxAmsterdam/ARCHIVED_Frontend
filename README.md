@@ -20,17 +20,16 @@ http://tedx.amsterdam/
 ## Installation
 
 Clone the repository and run `npm install`:
-
-##Vagrent Installation
-Clone the repository and run vagrant up then vagrant ssh
-cd into /var/www and run npm install then npm run build:server
-if you get errors during npm install then delete the node_modules and run npm install again
-if you also get errors during npm run build:server then delete the build folder and run  npm run build:server again
-then npm start and visit localhost:9000
-
 ```
 git clone https://github.com/TEDxAmsterdam/Frontend.git && cd Frontend && npm install
 ```
 
+## Vagrant Installation
+
+* [Install Vagrant](https://www.vagrantup.com/downloads.html)
+* Run `vagrant up` 
+* After vagrant has started up run  `vagrant ssh`
+* Go into the www folder by running `cd /var/www` and run `npm install && npm run build:server && npm start`
+* Visit localhost:9000
 
 [![Twitter](https://img.shields.io/twitter/url/https/github.com/TEDxAmsterdam/Frontend.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
