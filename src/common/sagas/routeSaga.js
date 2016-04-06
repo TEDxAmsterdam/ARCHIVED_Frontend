@@ -1,3 +1,5 @@
+/*eslint no-console: 1*/
+/* TODO We need to remove above when logic is implemented */
 import { takeEvery } from 'redux-saga';
 import { LOCATION_CHANGE } from 'react-router-redux';
 import { IDEAS, HOME} from '../constants/Routes';
@@ -6,7 +8,7 @@ const RouteLogic = {
   [HOME]: payload => console.log('Awesome home stuff', payload),
   [IDEAS]: payload => console.log('Awesome Ideas stuff', payload)
 
-}
+};
 
 export default function* mySaga() {
   yield* takeEvery(LOCATION_CHANGE, action => {
