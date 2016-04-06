@@ -1,6 +1,5 @@
 var path = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var config = require('./webpack.config.js');
 var defineEnvPlugin = require('./webpack.plugin.env');
 var _ = require('lodash');

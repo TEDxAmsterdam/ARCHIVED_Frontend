@@ -19,6 +19,11 @@ var entry = config.entry.concat([
 
 var loaders = config.module.loaders.concat([{
   test: /\.js$/,
+  loaders: ['react-hot'],
+  include: path.join(__dirname, '..', 'src'),
+  exclude: [/Helmet/, /node_modules/]
+},{
+  test: /\.js$/,
   loaders: ['babel'],
   include: path.join(__dirname, '..', 'src')
 }]);
