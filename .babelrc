@@ -1,4 +1,4 @@
 {
-  "presets": ["es2015-loose", "react", "stage-2"],
+  "presets": ["es2015-loose", "react", "stage-0"],
   "plugins": ["transform-decorators-legacy", "transform-runtime", "add-module-exports", "lodash"]
 }
