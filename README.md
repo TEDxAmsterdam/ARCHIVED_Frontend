@@ -1,6 +1,6 @@
 # TEDxAmsterdam Open Source Community
 
-[![GitHub issues](https://img.shields.io/github/issues/TEDxAmsterdam/Frontend.svg)](https://github.com/TEDxAmsterdam/Frontend/issues)
+[![GitHub issues](https://img.shields.io/github/issues/TEDxAmsterdam/Frontend.svg)](https://github.com/TEDxAmsterdam/Frontend/issues) [![Build Status](https://travis-ci.org/TEDxAmsterdam/Frontend.svg?branch=master)](https://travis-ci.org/TEDxAmsterdam/Frontend) [![Join the chat at https://gitter.im/TEDxAmsterdam/Frontend](https://badges.gitter.im/TEDxAmsterdam/Frontend.svg)](https://gitter.im/TEDxAmsterdam/Frontend?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GNU General Public License](https://img.shields.io/badge/license-GPL--3.0-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ## TEDxAmsterdam is going Open Source!
 
